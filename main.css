@@ -95,6 +95,8 @@ main form button {
   margin-right: -2px;
   border-radius: 25px;
   border: none;
+  -webkit-box-shadow: 0px 15px 38px -27px #000000;
+          box-shadow: 0px 15px 38px -27px #000000;
 }
 
 main form button:hover {
@@ -107,13 +109,13 @@ main form button:active {
 
 main #validation-message {
   color: #f96262;
-  margin: 10px 0 0 170px;
+  margin: 10px 0 20px 0;
   display: none;
 }
 
 .validation-error {
   border: 2px solid #f96262;
-  background: right 100px top 50%/30px no-repeat url(./images/icon-error.svg);
+  background: right 80px top 50%/30px no-repeat url(./images/icon-error.svg);
 }
 
 .attribution {
@@ -175,6 +177,13 @@ main #validation-message {
   }
   main form button {
     width: 120px;
+  }
+  #validation-message {
+    margin: 10px 0 0 170px !important;
+  }
+  .validation-error {
+    border: 2px solid #f96262;
+    background: right 100px top 50%/30px no-repeat url(./images/icon-error.svg);
   }
   footer .attribution {
     text-align: left;
