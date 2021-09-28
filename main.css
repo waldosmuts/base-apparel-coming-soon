@@ -128,7 +128,7 @@ main #validation-message {
   color: #f96262;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1270px) {
   body {
     background: url(./images/bg-pattern-desktop.svg);
   }
